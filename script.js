@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const inputText = plantInput.value.toLowerCase();
 
         if (inputText === 'tickle plant' || inputText === 'water plant' || inputText === 'feed plant') {
-            plantImageContainer.innerHTML = '<img src="images/happy_plant.jpg" alt="Happy Plant">';
+            plantImageContainer.innerHTML = '<img src="happy_plant.jpg" alt="Happy Plant">';
         } else {
-            plantImageContainer.innerHTML = '<img src="images/sad_plant.jpg" alt="Sad Plant">';
+            plantImageContainer.innerHTML = '<img src="sad_plant.jpg" alt="Sad Plant">';
         }
     }
 
